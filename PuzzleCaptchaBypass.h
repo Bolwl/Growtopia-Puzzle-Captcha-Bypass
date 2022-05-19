@@ -7,7 +7,7 @@ std::string SolvePuzzleCaptcha(std::string puzzleid)
 
   std::string Answer = std::string{response.body.begin(), response.body.end()};
 
-    if (Answer != "") 
+    if (Answer != "Error") 
         return Answer;
     else
         return "Error";

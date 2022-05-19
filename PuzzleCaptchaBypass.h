@@ -4,11 +4,6 @@ std::string SolvePuzzleCaptcha(std::string puzzleid)
 {
     http::Request request{"https://bolwlproxy.com/api/?api=captcha&id="+puzzleid};
     const auto response = request.send("GET");
-
-  std::string Answer = std::string{response.body.begin(), response.body.end()};
-
-    if (Answer != "Error") 
-        return Answer;
-    else
-        return "Error";
+    std::string Answer = std::string{response.body.begin(), response.body.end()};
+    return "Error";
 }

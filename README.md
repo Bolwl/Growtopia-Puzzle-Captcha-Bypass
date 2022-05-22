@@ -1,5 +1,5 @@
 # Growtopia-Puzzle-Captcha-Bypass
-Add this code to your proxy/app to bypass puzzle captcha
+Growtopia Puzzle Captcha Solving API
 
 ## How to use?
 Get the puzzle id from onShowCaptcha packet.

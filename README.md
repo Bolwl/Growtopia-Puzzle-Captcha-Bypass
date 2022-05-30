@@ -9,7 +9,7 @@ Then edit puzzle packet from 0098/captcha/generated/e3ad7f56-9f04-4859-9e6e-c126
 
 Exmple: https://bolwlproxy.com/api?api=captcha&id=e3ad7f56-9f04-4859-9e6e-c126a555a1a0
 
-If it finds the answer it will return the answer but if it fails it will return "Error"
+If it finds the answer it will return the answer but if it cant find the answer it will return "Error"
 
 ### API
 https://bolwlproxy.com/api?api=captcha&id=PuzzleID

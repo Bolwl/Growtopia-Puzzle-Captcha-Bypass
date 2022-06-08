@@ -2,7 +2,9 @@
 Growtopia Puzzle Captcha Solving API
 
 -Added pattern captcha.
+
 -Added Chess Captcha.
+
 -Added Yellow Puzzle Captcha
 
 ## How to use?

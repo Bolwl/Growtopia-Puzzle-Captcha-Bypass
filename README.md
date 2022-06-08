@@ -2,6 +2,8 @@
 Growtopia Puzzle Captcha Solving API
 
 -Added pattern captcha.
+-Added Chess Captcha.
+-Added Yellow Puzzle Captcha
 
 ## How to use?
 First get the puzzle id from onShowCaptcha packet sent by server.
